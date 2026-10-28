@@ -1,0 +1,46 @@
+/* City reading controls stay secondary to architecture and visited materials. */
+.intro{padding:22px 25px 17px}.intro h1{font-size:23px;margin:9px 0}.intro p{font-size:12px;line-height:1.6}
+.list-heading{padding:12px 24px}.visit-progress-row{padding-bottom:10px}
+#building-filters{display:flex;flex-wrap:wrap;gap:5px;padding:0 20px 7px;flex-shrink:0}
+#building-filters button{border:1px solid #dce3e8;background:white;border-radius:16px;padding:5px 9px;font-size:11px;line-height:1.4;white-space:nowrap}
+#building-filters button:hover{border-color:#96aac3;background:#f6f8fc}
+#building-filters button[aria-pressed=true]{background:#153bec;color:white;border-color:#153bec}
+.filter-note{font-size:10px;color:#73818d;margin:0;padding:0 22px 8px}.building-search{padding-bottom:8px}.building-search input{font-size:12px;padding:8px 10px}
+.layer-controls{position:relative}.layer-count{font-size:9px;background:#eaf0ff;color:#153bec;border-radius:9px;padding:2px 5px;margin-left:3px}
+.layer-panel{position:absolute;top:calc(100% + 9px);left:0;width:292px;max-height:min(480px,calc(100dvh - 250px));overflow:auto;background:#fff;border:1px solid #d7e0e8;border-radius:10px;box-shadow:0 12px 40px #24354b24;padding:14px;scrollbar-width:thin}
+.layer-panel-heading{font-size:10px;font-weight:700;letter-spacing:1.4px;color:#7b8893;margin:0 0 8px}
+.model-toolbar .layer-panel>label{display:flex;align-items:center;gap:9px;border:0;padding:8px 0;font-size:12px;background:transparent}
+.layer-panel input[type=checkbox]{width:15px;height:15px;margin:0}
+.layer-opacity{display:flex;align-items:center;gap:7px;padding:0 0 9px 24px}
+.model-toolbar .layer-opacity label{border:0;background:transparent;padding:0;font-size:10px;white-space:nowrap;cursor:default}
+.layer-opacity input{width:75px;min-width:0;accent-color:#8398c1}.layer-opacity output{font-size:10px;color:#70808f;width:25px}
+.transit-key{display:flex;gap:16px;margin:0 0 8px 24px;font-size:10px;color:#647889}.transit-key span{display:flex;gap:5px;align-items:center}
+.mode-U,.mode-S{font-family:Arial,sans-serif;font-size:10px!important;color:white!important;background:#347cc4;border-radius:3px;display:inline-grid;place-items:center;min-width:16px;height:16px;line-height:1;flex-shrink:0}
+.mode-S{background:#20855b;border-radius:50%}
+.layer-note,.region-key p{font-size:10px;line-height:1.6;color:#6b7d8b;margin:9px 0}.region-key{border-top:1px solid #e4e9ec;margin-top:10px;padding-top:10px}
+.region-key summary{padding:0;border:0!important;background:transparent!important;font-size:11px}
+.region-swatches{display:grid;grid-template-columns:1fr 1fr;gap:7px 8px;margin-top:12px}.region-swatches span{display:flex;align-items:center;gap:5px;font-size:10px}.region-swatches i{display:block;width:10px;height:10px;border-radius:3px;flex-shrink:0}
+.model-toolbar .layer-source{display:block;padding:8px 0 0;margin-top:10px;border:0;border-top:1px solid #e4e9ec;border-radius:0;font-size:9px;color:#687b8a;background:none}.layer-save{font-size:10px;color:#a04b31}.layer-save:empty{display:none}
+.model-toolbar:has(.layer-controls[open]){z-index:9}
+#city-labels{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:1}#markers{z-index:2}
+.city-label{position:absolute;transform:translate(-50%,-50%);white-space:nowrap;display:flex;align-items:center;gap:4px;font-size:10px;line-height:20px;color:#526576;text-shadow:0 1px 2px #fff,0 -1px 2px #fff;pointer-events:none;max-width:240px}
+.city-label.region{font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#47566c;border-bottom:3px solid var(--region-color);text-shadow:0 1px 3px #fff,0 -1px 3px #fff;background:#ffffff75;border-radius:3px;padding:0 5px}
+.city-label.station{pointer-events:auto;text-decoration:none;background:#fffffff2;border:1px solid #d0dce5;border-radius:4px;padding:1px 4px;color:#304d64;text-shadow:none;font-size:10px;box-shadow:0 1px 5px #1c354712}
+.city-label.station:hover{border-color:#153bec;color:#153bec}.city-label.park{color:#50785b;font-style:italic}.city-label.water{color:#357c9b;font-style:italic}.city-label.square{font-weight:600}.city-label.street{font-size:10px;letter-spacing:.25px}
+#city-labels[data-style=night] .city-label:not(.station),#city-labels[data-style=blueprint] .city-label:not(.station){color:#dae5ee;text-shadow:0 1px 3px #122637,0 -1px 3px #122637}
+#city-labels[data-style=night] .region,#city-labels[data-style=blueprint] .region{background:#14283db3}
+@media(min-width:701px) and (max-height:800px){.intro{padding-top:16px;padding-bottom:12px}.intro p{display:none}.list-heading{padding-top:10px;padding-bottom:10px}.sidebar-footer{font-size:10px;padding:8px 20px}.building-item{min-height:60px;padding-top:10px;padding-bottom:10px}.building-item strong{font-size:13px}.building-item small{font-size:11px}}
+@media(max-width:1100px) and (min-width:701px){.layer-panel{left:auto;right:0}}
+@media(max-width:700px){.sidebar{height:265px}.intro{display:none}#building-filters{flex-wrap:nowrap;overflow:auto;padding:0 18px 7px;gap:5px}#building-filters button{padding:4px 8px;font-size:10px}.filter-note{display:none}.building-search{padding:0 18px 5px}.visit-progress-row{padding-bottom:5px}.layer-panel{position:fixed;left:14px;right:14px;top:160px;width:auto;max-height:calc(100dvh - 185px);padding:12px}.model-toolbar .layer-panel>label{font-size:13px;min-height:38px}.city-label.region{font-size:11px}.layer-controls summary{font-size:10px}.layer-opacity input{width:100px}}
+
+/* Venue pins represent occupants, without duplicating or colouring host buildings. */
+.venue-marker.artspaces .pin,.venue-item.artspaces .num{color:#7b3da0;background:#f4eafa;border-color:#b188c6}
+.venue-marker.clubs .pin,.venue-item.clubs .num{color:#914a12;background:#fff0da;border-color:#d2a36b}
+.venue-marker.visited .pin{background:#137b68;color:white;border-color:#137b68}
+.venue-marker.active .pin{background:#183fff;color:white;border-color:#183fff}
+.venue-cover{margin:20px 0;padding:24px 20px;border-radius:9px;display:grid;gap:8px;background:#f4eafa;color:#643482}
+.venue-cover.clubs{background:#fff0da;color:#80501d}
+.venue-cover>span{font-size:38px;line-height:1}.venue-cover small{font-size:12px}
+.venue-visit-note{padding:12px 14px;border-left:3px solid #8d9caf;background:#f2f5f8;font-size:13px;line-height:1.6}
+[data-style="night"] .venue-cover{background:#30263c;color:#ebd6fa}
+[data-style="night"] .venue-cover.clubs{background:#372f24;color:#f2d4a4}

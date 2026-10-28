@@ -1,0 +1,375 @@
+{
+  "places": [
+    {
+      "id": "venue-kw",
+      "name": "KW Institute for Contemporary Art",
+      "kind": "artspaces",
+      "venue": true,
+      "type": "Gallery / art space",
+      "architect": "Mitte",
+      "dates_display": "Mitte",
+      "lon": 13.3948218,
+      "lat": 52.5271636,
+      "local": [
+        1106.4340176674887,
+        884.2128598829731,
+        36
+      ],
+      "address": "Auguststraße 69",
+      "neighbourhood": "Mitte",
+      "aliases": "",
+      "primary_source": "https://www.kw-berlin.de/en/visit/information",
+      "description": "Contemporary art institute in a former margarine factory, with exhibitions, a courtyard and bookshop.",
+      "visit_note": "Check exhibition dates and ticket information before visiting.",
+      "verified_on": "2026-10-15",
+      "coordinate_source": "https://www.openstreetmap.org/node/3641040703",
+      "coordinate_kind": "OSM venue point; may identify a courtyard or indoor venue rather than an entrance",
+      "model": {
+        "bounds": [
+          [
+            1076.4340176674887,
+            854.2128598829731,
+            14
+          ],
+          [
+            1136.4340176674887,
+            914.2128598829731,
+            40
+          ]
+        ],
+        "objects": 0,
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "venue-boros",
+      "name": "Boros Collection",
+      "kind": "artspaces",
+      "venue": true,
+      "type": "Gallery / art space",
+      "architect": "Mitte",
+      "dates_display": "Mitte",
+      "lon": 13.38404,
+      "lat": 52.523509,
+      "local": [
+        365.95785219193203,
+        494.06394824944437,
+        36
+      ],
+      "address": "Reinhardtstraße 20",
+      "neighbourhood": "Mitte",
+      "aliases": "Sammlung Boros",
+      "primary_source": "https://boros-collection.com/en/plan-a-visit",
+      "description": "A private collection of contemporary art inside a converted wartime bunker.",
+      "visit_note": "Visits are by guided tour; book through the official website.",
+      "verified_on": "2026-10-15",
+      "coordinate_source": "https://www.openstreetmap.org/node/4219262248",
+      "coordinate_kind": "OSM venue point; may identify a courtyard or indoor venue rather than an entrance",
+      "model": {
+        "bounds": [
+          [
+            335.95785219193203,
+            464.06394824944437,
+            14
+          ],
+          [
+            395.95785219193203,
+            524.0639482494444,
+            40
+          ]
+        ],
+        "objects": 0,
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "venue-esther-schipper",
+      "name": "Esther Schipper",
+      "kind": "artspaces",
+      "venue": true,
+      "type": "Gallery / art space",
+      "architect": "Tiergarten",
+      "dates_display": "Tiergarten",
+      "lon": 13.3657651,
+      "lat": 52.5018515,
+      "local": [
+        -928.3387049176963,
+        -1886.7882807841524,
+        36
+      ],
+      "address": "Potsdamer Straße 81E",
+      "neighbourhood": "Tiergarten",
+      "aliases": "",
+      "primary_source": "https://www.estherschipper.com/viewing-room/23-berlin/",
+      "description": "A contemporary art gallery in the Potsdamer Straße gallery district, presenting international artists.",
+      "visit_note": "An upper-floor gallery: check the current exhibition and access details.",
+      "verified_on": "2026-10-15",
+      "coordinate_source": "https://www.openstreetmap.org/node/13587192802",
+      "coordinate_kind": "OSM venue point; may identify a courtyard or indoor venue rather than an entrance",
+      "model": {
+        "bounds": [
+          [
+            -958.3387049176963,
+            -1916.7882807841524,
+            14
+          ],
+          [
+            -898.3387049176963,
+            -1856.7882807841524,
+            40
+          ]
+        ],
+        "objects": 0,
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "venue-neugerriemschneider",
+      "name": "neugerriemschneider — Linienstraße",
+      "kind": "artspaces",
+      "venue": true,
+      "type": "Gallery / art space",
+      "architect": "Mitte",
+      "dates_display": "Mitte",
+      "lon": 13.3940895,
+      "lat": 52.5275959,
+      "local": [
+        1057.8287660091883,
+        933.3989610578865,
+        36
+      ],
+      "address": "Linienstraße 155",
+      "neighbourhood": "Mitte",
+      "aliases": "",
+      "primary_source": "https://www.neugerriemschneider.com/",
+      "description": "A contemporary art gallery in a courtyard setting between Linienstraße and Auguststraße.",
+      "visit_note": "This pin is the Linienstraße space; check which location hosts the exhibition.",
+      "verified_on": "2026-10-15",
+      "coordinate_source": "https://www.openstreetmap.org/node/10855520708",
+      "coordinate_kind": "OSM venue point; may identify a courtyard or indoor venue rather than an entrance",
+      "model": {
+        "bounds": [
+          [
+            1027.8287660091883,
+            903.3989610578865,
+            14
+          ],
+          [
+            1087.8287660091883,
+            963.3989610578865,
+            40
+          ]
+        ],
+        "objects": 0,
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "venue-carlier-gebauer",
+      "name": "carlier | gebauer",
+      "kind": "artspaces",
+      "venue": true,
+      "type": "Gallery / art space",
+      "architect": "Kreuzberg",
+      "dates_display": "Kreuzberg",
+      "lon": 13.394005,
+      "lat": 52.5059083,
+      "local": [
+        998.430814111256,
+        -1478.5973484981805,
+        36
+      ],
+      "address": "Markgrafenstraße 67",
+      "neighbourhood": "Kreuzberg",
+      "aliases": "Carlier Gebauer",
+      "primary_source": "https://www.carliergebauer.com/contact/",
+      "description": "A contemporary art gallery presenting sculpture, installation, painting, photography and moving image.",
+      "visit_note": "Check the exhibition calendar before visiting.",
+      "verified_on": "2026-10-15",
+      "coordinate_source": "https://www.openstreetmap.org/node/6434159617",
+      "coordinate_kind": "OSM venue point; may identify a courtyard or indoor venue rather than an entrance",
+      "model": {
+        "bounds": [
+          [
+            968.430814111256,
+            -1508.5973484981805,
+            14
+          ],
+          [
+            1028.430814111256,
+            -1448.5973484981805,
+            40
+          ]
+        ],
+        "objects": 0,
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "venue-berghain",
+      "name": "Berghain / Panorama Bar",
+      "kind": "clubs",
+      "venue": true,
+      "type": "Club / music venue",
+      "architect": "Friedrichshain",
+      "dates_display": "Friedrichshain",
+      "lon": 13.4430356,
+      "lat": 52.5111669,
+      "local": [
+        4338.618396930629,
+        -966.6180927837268,
+        36
+      ],
+      "address": "Am Wriezener Bahnhof",
+      "neighbourhood": "Friedrichshain",
+      "aliases": "Berghain Panorama",
+      "primary_source": "https://www.berghain.berlin/en/",
+      "description": "A former power station housing Berghain, Panorama Bar and other music and performance spaces.",
+      "visit_note": "Use the official programme for events, tickets and entry information.",
+      "verified_on": "2026-10-15",
+      "coordinate_source": "https://www.openstreetmap.org/node/6341225967",
+      "coordinate_kind": "OSM venue point; may identify a courtyard or indoor venue rather than an entrance",
+      "model": {
+        "bounds": [
+          [
+            4308.618396930629,
+            -996.6180927837268,
+            14
+          ],
+          [
+            4368.618396930629,
+            -936.6180927837268,
+            40
+          ]
+        ],
+        "objects": 0,
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "venue-tresor",
+      "name": "Tresor",
+      "kind": "clubs",
+      "venue": true,
+      "type": "Club / music venue",
+      "architect": "Mitte",
+      "dates_display": "Mitte",
+      "lon": 13.419484,
+      "lat": 52.5106807,
+      "local": [
+        2739.23953431251,
+        -985.9645257340744,
+        36
+      ],
+      "address": "Köpenicker Straße 70",
+      "neighbourhood": "Mitte",
+      "aliases": "Tresor Berlin",
+      "primary_source": "https://tresorberlin.com/",
+      "description": "A techno club within the former power station shared with Kraftwerk Berlin.",
+      "visit_note": "Check the official event programme and guest information.",
+      "verified_on": "2026-10-15",
+      "coordinate_source": "https://www.openstreetmap.org/node/4870128450",
+      "coordinate_kind": "OSM venue point; may identify a courtyard or indoor venue rather than an entrance",
+      "model": {
+        "bounds": [
+          [
+            2709.23953431251,
+            -1015.9645257340744,
+            14
+          ],
+          [
+            2769.23953431251,
+            -955.9645257340744,
+            40
+          ]
+        ],
+        "objects": 0,
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "venue-ohm",
+      "name": "OHM",
+      "kind": "clubs",
+      "venue": true,
+      "type": "Club / music venue",
+      "architect": "Mitte",
+      "dates_display": "Mitte",
+      "lon": 13.4197888,
+      "lat": 52.5105954,
+      "local": [
+        2759.7155776862055,
+        -995.9045228110626,
+        36
+      ],
+      "address": "Köpenicker Straße 70",
+      "neighbourhood": "Mitte",
+      "aliases": "Ohm",
+      "primary_source": "https://ohmberlin.com/",
+      "description": "An intimate music space in the same power-station complex as Tresor, with its own programme.",
+      "visit_note": "Separate venue and programme from Tresor; check the event listing.",
+      "verified_on": "2026-10-15",
+      "coordinate_source": "https://www.openstreetmap.org/node/2876098523",
+      "coordinate_kind": "OSM venue point; may identify a courtyard or indoor venue rather than an entrance",
+      "model": {
+        "bounds": [
+          [
+            2729.7155776862055,
+            -1025.9045228110626,
+            14
+          ],
+          [
+            2789.7155776862055,
+            -965.9045228110626,
+            40
+          ]
+        ],
+        "objects": 0,
+        "sourceIds": []
+      }
+    },
+    {
+      "id": "venue-kater",
+      "name": "Kater",
+      "kind": "clubs",
+      "venue": true,
+      "type": "Club / music venue",
+      "architect": "Friedrichshain",
+      "dates_display": "Friedrichshain",
+      "lon": 13.4260899,
+      "lat": 52.5119933,
+      "local": [
+        3190.6986114139436,
+        -849.7687583481893,
+        36
+      ],
+      "address": "Holzmarktstraße 25",
+      "neighbourhood": "Friedrichshain",
+      "aliases": "Kater Blau Katerblau",
+      "primary_source": "https://www.katerclub.de/",
+      "description": "An electronic music club on the Holzmarkt riverside site, formerly known as Kater Blau.",
+      "visit_note": "The official programme now uses Kater; check the current event details.",
+      "verified_on": "2026-10-15",
+      "coordinate_source": "https://www.openstreetmap.org/node/5247942730",
+      "coordinate_kind": "OSM venue point; may identify a courtyard or indoor venue rather than an entrance",
+      "model": {
+        "bounds": [
+          [
+            3160.6986114139436,
+            -879.7687583481893,
+            14
+          ],
+          [
+            3220.6986114139436,
+            -819.7687583481893,
+            40
+          ]
+        ],
+        "objects": 0,
+        "sourceIds": []
+      }
+    }
+  ],
+  "checked_on": "2026-10-15",
+  "sources_note": "Operator websites checked for addresses and visitor links; OSM for coordinates. Schedules are linked, not live data."
+}
